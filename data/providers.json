@@ -530,7 +530,13 @@
       "model_tier_source": {"model":"DeepSeek-V3.1","arena_model":"deepseek-v3.1","match":"variant","rating":1417.1,"ci":[1411.1,1423.2],"votes":14540,"snapshot":"2026-10-02","url":"https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset"},
       "free_limits": {"requests_per_minute":20,"requests_per_day":20,"tokens_per_day":200000,"scope":"Free Tier (no payment method linked); limits listed per model in the table for DeepSeek-V3.1, Meta-Llama-3.3-70B-Instruct and gpt-oss-120b, enforcement scope not stated","source":"https://docs.sambanova.ai/docs/en/models/rate-limits","checked":"2026-10-09"},
       "verified": true,
-      "last_verified": "2026-10-09"
+      "last_verified": "2026-10-09",
+      "data_policy": {
+  "trains_on_prompts": false,
+  "retention": null,
+  "source": "https://sambanova.ai/cloud-end-user-license-agreement",
+  "checked": "2026-10-13"
+}
     },
     {
       "slug": "scaleway",
